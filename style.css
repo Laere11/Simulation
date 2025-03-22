@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+/* UI panel styling */
+#ui-panel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+#ui-panel > * {
+  display: block;
+  margin-bottom: 5px;
+}
